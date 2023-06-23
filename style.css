@@ -31,10 +31,10 @@ body{
     margin-top: 100px;
   }
   .seccion_card{ 
-  background-color: white;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 10px 5px 5px #ebb3b3;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 10px 5px 5px #ebb3b3;
 }
 
   .section_card_img {
@@ -122,7 +122,6 @@ body{
   border-radius: 0 20px 20px 0;
   padding: 7px 0 7px 30px;
 }
-/* clases que se aplicará cuando haya acertada la opcion  */
 .opcion .nombreAcertada{
   background-color: var(--aciertos);
   color: #fff;
@@ -131,7 +130,6 @@ body{
   background-color: var(--aciertos);
   color: #fff ;
 }
-/* clases que se aplicaran cuando se equivoque en la opcion elegida */
 .opcion .nombreNoAcertada{
   background-color: var(--fallas);
   color: #fff;
