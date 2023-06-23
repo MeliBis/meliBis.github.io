@@ -78,12 +78,12 @@ body{
   #pantalla_juego{
     display: none;
 }
-.pantalla-juego{
+.pantalla_juego{
     max-width: 800px;
     margin: 50px auto;
     text-align: center;
 }
-.pantalla-juego img{
+.pantalla_juego img{
     max-width: 400px;
     width: 100%;
 }
@@ -141,15 +141,10 @@ body{
   color: #fff;
 }
 
+#respCorrectas, #respIncorrectas{
+  display: none;
+}
 
-
-/*   .section-question_peru{
-    margin-top: 110%;
-    border: 1px solid white;
-  } */
-/*   .section-question_mexico{
-    margin-top: 110%;
-  } */
   footer{
     width: 100%;
     background-color: var(--fondo);
