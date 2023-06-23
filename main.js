@@ -35,7 +35,6 @@ function startName() {
 }
 
 function cargarImagen(){
-  //controlo si se acabaron las imagenes
   if(paises.length <= posActual){
       terminarJuego();
   }
