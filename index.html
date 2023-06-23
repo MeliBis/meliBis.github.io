@@ -14,9 +14,6 @@
         <div class="seccion_card" id="pantalla_inicial">
             <h1>Adivina, adivinador</h1>
              <h3>Bienvenido/a a la Trivia de Gastronomía</h3>
-            
-<!--             <h3 class="">Conoce nuestros países</h3>
- -->            <!-- <h4 class="">Perú y México</h4> -->
             <img class="section_card_img" src="./assets/pregunta.jpg" alt="">
             <label for="name">Ingresa tu nombre:</label>
             <input type="text" id="name" placeholder="Ingresa tu nombre"><br>
@@ -30,7 +27,7 @@
     <!-- primera pregunta Mexico -->
       <div class="juego" >
         <div class="pantalla-juego" id="pantalla_juego">
-          <img class="section_card_img" src="./assets/mex1.png  " alt="" id="imgPais">
+          <img class="section_card_img" src="./assets/ad.png  " alt="" id="imgPais">
           <div class="opciones">
               <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
                   <div class="letra" id="l0">A</div>
@@ -40,8 +37,6 @@
                   <div class="letra" id="l1">B</div>
                   <div class="nombre" id="n1">Tostadas </div>
               </div>
-              
-
               <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
                   <div class="letra" id="l2">C</div>
                   <div class="nombre" id="n2">Tacos</div>
@@ -51,7 +46,7 @@
         </div> 
         <!-- despedida -->
         <div id="pantalla_final">
-<!--           <h2>CORRECTAS: <span id="respCorrectas"></span></h2>
+<!--            <h2>CORRECTAS: <span id="respCorrectas"></span></h2>
           <h2>INCORRECTAS: <span id="respIncorrectas"></span></h2>      
  -->          <button class="btn" id="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button>
       </div>
