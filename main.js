@@ -40,7 +40,7 @@ function cargarImagen(){
   }
   else{
       limpiarOpciones();
-console.log(opciones);
+      console.log(opciones);
       document.getElementById("imgPais").src = "assets/" + paises[posActual];
       document.getElementById("n0").innerHTML = opciones[posActual][0];
       document.getElementById("n1").innerHTML = opciones[posActual][1];
@@ -84,7 +84,6 @@ function terminarJuego(){
 }
 
 function volverAlInicio(){
-  //ocultamos las pantallas y activamos la inicial
   document.getElementById("pantalla_final").style.display = "none";
   document.getElementById("pantalla_inicial").style.display = "block";
   document.getElementById("pantalla_juego").style.display = "none";
